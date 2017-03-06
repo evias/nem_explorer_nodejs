@@ -1,6 +1,9 @@
 ## NEM Blockchain Explorer (Node.js) ##
 
-The project is a blockchian explorer project which is built on NEM (https://www.nem.io). 
+The project is a blockchian explorer project which is built on NEM (https://www.nem.io).
+
+Now this explorer can also be deployed on Heroku instances. Please make sure to configure
+a MongoDB plugin on your dynos.
 
 ### What components are required ###
 
@@ -18,7 +21,7 @@ AngularJS, Bootstrap, MongoDB, Node.js
 
 #### Let's build the project: ####
 
-1) install bebel (for the ES6)
+1) install babel (for the ES6)
 
 <pre>npm install babel-cli -g</pre>
 
@@ -38,5 +41,5 @@ nisInitStartBlock: 0 //default 0
 
 <pre>npm start</pre>
 
-5) then visit http://127.0.0.1:8081, you should wait for the block loading when the first time run the application. 
+5) then visit http://127.0.0.1:8081, you should wait for the block loading when the first time run the application.
 
